@@ -23,7 +23,7 @@ const testeFinal =async(nome,materia)=>{
   }catch(erro){
     console.log(erro);
   }finally{
-    console.log('Programa finalizado');
+    console.log('Programa finalizado!!');
   }
 };
 
