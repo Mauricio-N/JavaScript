@@ -12,7 +12,7 @@ const prova =returnAluno=>{
   let rnd = Math.floor(Math.random()*11);
   console.log(returnAluno);
   return new Promise((resolve,reject)=>{
-   rnd>=5?resolve('Parabéns'):reject('Você não passou!!!!')});
+   rnd>=5?resolve('Parabéns'):reject('Você não passou!!')});
 };
 
 const testeFinal =async(nome,materia)=>{
